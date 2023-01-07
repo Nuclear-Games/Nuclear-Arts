@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Caveat:wght@500&family=Iceland&family=Passions+Conflict&family=Quicksand:wght@500&display=swap');
+
+/*
+
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Iceland', cursive;
+  font-family: 'Passions Conflict', cursive;
+  font-family: 'Quicksand', sans-serif;
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: 'Caveat', cursive;
+
+}
+
+.topnav {
+    background: #f1f1f1;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.topnav .menu-icon {
+    float: right;
+    font-size: 25px;
+    color: black;
+    margin-right: 15px;
+}
+
+.topnav .brand {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Caveat', cursive;
+}
+
+.topnav .brand:hover {
+    font-size: 35px;
+    color: black;
+}
+
+
+.topnav .logo-img {
+    float: left;
+    height: 45px;
+    border-right: 2px solid black;
+}
+
+.topnav .logo-img img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.main-frame{
+    
+    width: 95%;
+    border: 2px solid black;
+}
+
+.main-frame .line{
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.responsive-box{
+    display: flex;
+    width: max-content; 
+}
+
+.main-frame h1{
+    color: rgb(255, 76, 57);
+}
+
+.responsive-box .space{
+    width: 25px;
+}
+
+.responsive-box img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+
+.responsive-box .coming-soon{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.responsive-box .create-your-own{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+ .create-own-art{
+    color: white;
+    border: none;
+    cursor: pointer ;
+    font-size: 30px;
+    padding: 10px 80px;
+    background: rgb(255, 112, 96);
+    border-radius: 10px;
+    font-family: 'Caveat' , sans-serif;
+}
